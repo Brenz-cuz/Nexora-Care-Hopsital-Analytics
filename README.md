@@ -25,13 +25,12 @@ Shows staffed capacity, occupancy patterns, workforce performance, ward-level pe
 ![Scenario Planning Dashboard](Nexora%20Capacity%20Scenario%20Dashboard.png)
 Uses What-if controls for emergency admission spikes, flu-related demand surges and discharge delays to estimate changes in occupancy, available beds and potential shortfalls.
 
-Dataset description
+**Dataset description**
 The model combined five operational datasets and a shared hospitals dimension:
 
 Data set: Admissions and discharges	
 Key information: Admission and discharge datetimes, type, source, ward, specialty and length of stay
 Purpose : Analyse patient inflow, outflow and stays
-
 Data set: Bed occupancy
 Key information: Total, staffed, occupied and closed beds; hospital, ward and observation datetime
 Purpose : Monitor operational bed use
@@ -121,7 +120,7 @@ This project demonstrates how Power BI can integrate fragmented hospital operati
 The key lesson is that usable bed capacity depends on more than the number of physical beds: staffing, patient flow and discharge processes matter as well. Combining historical analysis, forecasting and interactive scenarios helps planners explore those pressures more systematically.
 
 **Repository contents**
-- README.md — project overview, methods, findings and recommendations (this page)
+- README.md - project overview, methods, findings and recommendations (this page)
 - ![Patient Flow Dashboard](Nexora%20Admission%20Overview%20Dashboard.png)
 - ![Bed Capacity Dashboard](Nexora%20Bed%20Capacity%20Dashboard.png)
 - ![Scenario Planning Dashboard](Nexora%20Capacity%20Scenario%20Dashboard.png)
