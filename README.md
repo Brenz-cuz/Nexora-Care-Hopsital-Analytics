@@ -64,6 +64,7 @@ I used Power Query to:
 **Data modelling**
 I structured the model around the five operational fact tables, a shared Hospitals dimension and a Calendar/Date table. This supported hospital and region filters, time trends, weekday comparisons and drill-down analysis. DAX measures were organised in a dedicated measures table.
 The tables support comparisons across common dimensions, but the project does not assume direct patient-level linkage across every operational dataset.
+
 **DAX measures and analysis**
 The project developed measures for admissions and discharges, ED conversion, capacity utilisation, workforce performance and scenario planning. Selected analytical definitions documented in the project report include:
 
@@ -76,7 +77,6 @@ These are business definitions, not a copy of the exact DAX source code. The Pow
 The analysis considered seasonal demand, inflow versus outflow, ED admissions, length of stay, occupancy by weekday, planned versus actual staffing, and projected capacity under selected assumptions.
 
 **Key findings**
-Metric and	Result
 Admissions	Approximately =  1.25 million
 Discharges	Approximately = 1.24 million
 Net patient flow =	+5,310 admissions minus discharges
