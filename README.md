@@ -4,8 +4,10 @@ Power BI healthcare analytics project analysing patient flow, bed occupancy, sta
 **Project overview**
 Nexora Care is a fictional healthcare organisation operating 39 hospitals across the UK. I developed a three-page Power BI dashboard to bring together admissions, emergency department activity, bed occupancy, elective surgery and staffing information for operational planning.
 The project combines data cleaning, dimensional modelling, DAX measures, exploratory analysis, a 30-day occupancy forecast and interactive scenario planning.
+
 **Business problem**
 Hospital planners need to balance emergency demand, elective activity, beds and staff. Analysing these datasets separately can make emerging capacity pressures difficult to identify. This project provides a consolidated view of demand, capacity and staffing.
+
 **Dashboard pages**
 1. Patient Flow and Admission Overview: Admissions, discharges, ED arrivals, length of stay and elective cancellations.
 2. Bed Capacity and Staffing Performance: Bed utilisation, weekday patterns, staffing gaps and a 30-day occupancy forecast with a 95% confidence interval.
